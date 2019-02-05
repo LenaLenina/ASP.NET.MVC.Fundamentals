@@ -1,0 +1,17 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<script>
+    document.cookie = "data=hello-world";
+</script>
+
+
+@using (Html.BeginForm())
+{ 
+    <input type="submit" value="Submit" />
+}
+
+@ViewBag.Data

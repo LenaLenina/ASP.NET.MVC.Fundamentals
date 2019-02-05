@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="file:///C:/PROGRAM FILES (X86)/MICROSOFT VISUAL STUDIO 12.0/COMMON7/IDE/EXTENSIONS/MICROSOFT/ARCHITECTURE TOOLS/EXTENSIBILITY/Logging/ReverseEngineeringLog.xslt"?>
+<Log xmlns="http://schemas.microsoft.com/VisualStudio/2010/CodeGen.RE.Log" Label="Журнал создания кода/преобразования текста">
+  <MessageClass Name="Message" Label="Сообщение" Option="Показывать информационные сообщения" />
+  <MessageClass Name="Warning" Label="Предупреждение" Option="Показывать предупреждения" />
+  <MessageClass Name="Error" Label="Ошибка" Option="Показывать ошибки" />
+  <MessageClass Name="Property" Label="Свойство" Option="Показывать метаданные" />
+  <MessageClass Name="Diagnostic" Label="Сообщение" Option="Показывать диагностические сообщения" />
+  <Message Timestamp="2018-01-22T16:14:45" Importance="High" Text="Реконструирование запущено." />
+  <Message Timestamp="2018-01-22T16:14:48" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;9cc3728a-9e31-4f8d-b3eb-29fab351354d&quot; -  (ClassifierTemplateParameter)" />
+  <Message Timestamp="2018-01-22T16:14:48" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;AUML::MvcInternetApplication&quot; -  (Package)" />
+  <Message Timestamp="2018-01-22T16:14:48" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;AUML::MvcInternetApplication::Models&quot; -  (Package)" />
+  <Message Timestamp="2018-01-22T16:14:48" Importance="Medium" Text="Элемент реконструирован в модели UML: &quot;AUML::MvcInternetApplication::Models::LocalPasswordModel&quot; -  (Class)" />
+  <Message Timestamp="2018-01-22T16:14:48" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;AUML::MvcInternetApplication::Models::LocalPasswordModel::ConfirmPassword&quot; -  (Property)" />
+  <Message Timestamp="2018-01-22T16:14:48" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;AUML::MvcInternetApplication::Models::LocalPasswordModel::LocalPasswordModel&quot; -  (Operation)" />
+  <Message Timestamp="2018-01-22T16:14:48" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;AUML::MvcInternetApplication::Models::LocalPasswordModel::NewPassword&quot; -  (Property)" />
+  <Message Timestamp="2018-01-22T16:14:48" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;AUML::MvcInternetApplication::Models::LocalPasswordModel::OldPassword&quot; -  (Property)" />
+  <Message Timestamp="2018-01-22T16:14:48" Importance="Medium" Text="Элемент реконструирован в модели UML: &quot;AUML::MvcInternetApplication::Models::LoginModel&quot; -  (Class)" />
+  <Message Timestamp="2018-01-22T16:14:48" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;AUML::MvcInternetApplication::Models::LoginModel::LoginModel&quot; -  (Operation)" />
+  <Message Timestamp="2018-01-22T16:14:48" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;AUML::MvcInternetApplication::Models::LoginModel::Password&quot; -  (Property)" />
+  <Message Timestamp="2018-01-22T16:14:48" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;AUML::MvcInternetApplication::Models::LoginModel::RememberMe&quot; -  (Property)" />
+  <Message Timestamp="2018-01-22T16:14:48" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;AUML::MvcInternetApplication::Models::LoginModel::UserName&quot; -  (Property)" />
+  <Message Timestamp="2018-01-22T16:14:48" Importance="Medium" Text="Элемент реконструирован в модели UML: &quot;AUML::MvcInternetApplication::Models::RegisterModel&quot; -  (Class)" />
+  <Message Timestamp="2018-01-22T16:14:48" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;AUML::MvcInternetApplication::Models::RegisterModel::ConfirmPassword&quot; -  (Property)" />
+  <Message Timestamp="2018-01-22T16:14:48" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;AUML::MvcInternetApplication::Models::RegisterModel::Password&quot; -  (Property)" />
+  <Message Timestamp="2018-01-22T16:14:48" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;AUML::MvcInternetApplication::Models::RegisterModel::RegisterModel&quot; -  (Operation)" />
+  <Message Timestamp="2018-01-22T16:14:48" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;AUML::MvcInternetApplication::Models::RegisterModel::UserName&quot; -  (Property)" />
+  <Message Timestamp="2018-01-22T16:14:48" Importance="Medium" Text="Элемент реконструирован в модели UML: &quot;AUML::MvcInternetApplication::Models::UserProfile&quot; -  (Class)" />
+  <Message Timestamp="2018-01-22T16:14:48" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;AUML::MvcInternetApplication::Models::UserProfile::UserId&quot; -  (Property)" />
+  <Message Timestamp="2018-01-22T16:14:48" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;AUML::MvcInternetApplication::Models::UserProfile::UserName&quot; -  (Property)" />
+  <Message Timestamp="2018-01-22T16:14:48" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;AUML::MvcInternetApplication::Models::UserProfile::UserProfile&quot; -  (Operation)" />
+  <Message Timestamp="2018-01-22T16:14:48" Importance="Medium" Text="Элемент реконструирован в модели UML: &quot;AUML::MvcInternetApplication::Models::UsersContext&quot; -  (Class)" />
+  <Message Timestamp="2018-01-22T16:14:48" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;AUML::MvcInternetApplication::Models::UsersContext::UserProfiles&quot; -  (Property)" />
+  <Message Timestamp="2018-01-22T16:14:48" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;AUML::MvcInternetApplication::Models::UsersContext::UsersContext&quot; -  (Operation)" />
+  <Message Timestamp="2018-01-22T16:14:48" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;AUML::System&quot; -  (Package)" />
+  <Message Timestamp="2018-01-22T16:14:48" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;AUML::System::Data&quot; -  (Package)" />
+  <Message Timestamp="2018-01-22T16:14:48" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;AUML::System::Data::Entity&quot; -  (Package)" />
+  <Message Timestamp="2018-01-22T16:14:48" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;AUML::System::Data::Entity::DbContext&quot; -  (Class)   (реконструирован частично - определение не обновлено) " />
+  <Message Timestamp="2018-01-22T16:14:48" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;AUML::System::Data::Entity::DbSet&quot; -  (Class)   (реконструирован частично - определение не обновлено) " />
+  <Message Timestamp="2018-01-22T16:14:48" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;AUML::System::Data::Entity::DbSet&lt;UserProfile‎&gt;&quot; -  (Class)   (реконструирован частично - определение не обновлено) " />
+  <Message Timestamp="2018-01-22T16:14:48" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;Boolean&quot; -  (PrimitiveType)" />
+  <Message Timestamp="2018-01-22T16:14:48" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;Integer&quot; -  (PrimitiveType)" />
+  <Message Timestamp="2018-01-22T16:14:48" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;String&quot; -  (PrimitiveType)" />
+  <Message Timestamp="2018-01-22T16:14:48" Importance="Diagnostic" Text="Отношение реконструировано в модели UML: AUML::MvcInternetApplication::Models::UsersContext в AUML::System::Data::Entity::DbSet&lt;UserProfile‎&gt; (Association)" />
+  <Message Timestamp="2018-01-22T16:14:48" Importance="Diagnostic" Text="Отношение реконструировано в модели UML: AUML::MvcInternetApplication::Models::UsersContext в AUML::System::Data::Entity::DbContext (Generalization)" />
+  <Message Timestamp="2018-01-22T16:14:48" Importance="High" Text="Полностью реконструировано (5) типов." />
+  <Message Timestamp="2018-01-22T16:14:48" Importance="High" Text="Частично реконструировано (3) типов.  Эти типы не были включены в исходный выбор, поэтому их полные определения не реконструированы.  Данная пустая операция лишь проверила наличие этих типов в модели UML, поскольку они необходимы для полного описания других элементов." />
+  <Message Timestamp="2018-01-22T16:14:48" Importance="High" Text="Операция реконструирования завершена; ошибок: (0), предупреждений: (0)." />
+</Log>

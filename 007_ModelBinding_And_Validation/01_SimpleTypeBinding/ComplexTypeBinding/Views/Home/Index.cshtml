@@ -1,0 +1,14 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+@using (Html.BeginForm())
+{
+    <input type="hidden" name="Prop1" value="100" /> <p>100</p>
+    <input type="hidden" name="Prop2" value="Hello Woeld" /> <p>Hello world</p>
+    <input type="hidden" name="Prop3" value="true" /> <p>true</p>
+    
+    <input type="submit" name="submit" />
+}

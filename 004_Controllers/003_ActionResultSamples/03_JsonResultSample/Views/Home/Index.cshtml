@@ -1,0 +1,67 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div>
+        @Html.ActionLink("Action #1", "Action1", "Data") <br />
+        <a id="sendRequest" href="#">Action #2 (JavaScript)</a>
+
+        <div id="result"></div>
+
+        <a id="sendRequest2" href="#">Action3</a>
+
+        <div id="result2">
+
+        </div>
+
+        <script src="~/Scripts/jquery-2.0.2.min.js"></script>
+        <script>
+            $(document).ready(function () {
+                $("#sendRequest").click(function () {
+                    // Получение данных с помощью GET запроса
+                    $.ajax({
+                        url: "@Url.Action("Action2", "Data")",
+                        type : "POST",
+                        success: function (data) {
+                            $("#result")
+                                .append("Name: " + data.Name + "<br />")
+                                .append("Price: " + data.Price + "<br />")
+                                .append("Description: " + data.Description + "<br />");
+                        }
+                    });
+                });
+
+                $("#sendRequest2").click(function () {
+                    $.ajax({
+                        url: "@Url.Action("Action3", "Data")",
+                        type: "POST",
+                        success: function (data) {
+                            //for (var i = 0; i < data.length; i++)
+                            //{
+                            //    $("#result2")
+                            //        .append("Name: " + data[i].Name + "<br />")
+                            //        .append("Price: " + data[i].Price + "<br />")
+                            //        .append("Description: " + data[i].Description + "<br />");
+                            //}
+                            for (var i in data) {
+                                $("#result2")
+                                        .append("Name: " + data[i].Name + "<br />")
+                                        .append("Price: " + data[i].Price + "<br />")
+                                        .append("Description: " + data[i].Description + "<br />");
+                            }     
+                        }   
+                    });
+                });
+            });
+        </script>
+    </div>
+</body>
+</html>
